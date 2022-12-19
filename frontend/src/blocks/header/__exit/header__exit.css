@@ -1,0 +1,15 @@
+.header__exit {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #A9A9A9;
+    transform: opacity 0.4s;
+    margin-left: 24px;
+    background-color: inherit;
+}
+
+.header__exit:hover {
+    opacity: 0.6;
+}
