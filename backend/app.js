@@ -35,10 +35,9 @@ const app = express();
 
 app.use('*', cors());
 app.use(helmet());
-app.use(limiter);
 
 app.use(requestLogger); // подключаем логгер запросов
-
+app.use(limiter);
 app.use(bodyParser.json());
 app.use(router);
 
